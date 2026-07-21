@@ -9,9 +9,31 @@ import {
 } from './PaceReport'
 
 export function renderReportHtml(run: AgentRun, mode: ReportMode) {
-  return renderToHtml(<PaceReport run={run} mode={mode} />, {
+  const html = renderToHtml(<PaceReport run={run} mode={mode} />, {
     title: `${run.title} · Pace`,
   })
+
+  if (mode !== 'document') return html
+
+  const printStyles = `
+    <style>
+      @media print {
+        .u_row {
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+
+        .u_row:has(h2) {
+          break-after: avoid-page;
+          page-break-after: avoid;
+        }
+      }
+    </style>
+  `
+
+  return html
+    .replace(/\s*<div style="page-break-before: always;" \/>/g, '')
+    .replace('</head>', `${printStyles}</head>`)
 }
 
 export function renderReportText(run: AgentRun, mode: ReportMode = 'email') {
