@@ -1,0 +1,5160 @@
+{
+  "counters": {
+    "u_row": 30,
+    "u_column": 67,
+    "u_content_text": 74,
+    "u_content_heading": 11,
+    "u_content_divider": 6,
+    "u_content_button": 1
+  },
+  "body": {
+    "rows": [
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "1px",
+                  "textAlign": "left",
+                  "lineHeight": "1",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#c9f76f",
+                  "text": " ",
+                  "_meta": {
+                    "htmlID": "u_content_text_1",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_1",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#c9f76f",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "7px 0px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_1",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h2",
+                  "fontSize": "23px",
+                  "textAlign": "left",
+                  "lineHeight": "100%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "pace",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_1",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Agent work, ready for review.",
+                  "_meta": {
+                    "htmlID": "u_content_text_2",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_2",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "right",
+                  "lineHeight": "150%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "PACE-A029F46",
+                  "_meta": {
+                    "htmlID": "u_content_text_3",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "150%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "alexapvl/pace-unlayer-build-with-elements · main",
+                  "_meta": {
+                    "htmlID": "u_content_text_4",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_3",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#fffef8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "26px 36px 18px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_2",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "#d9dacd"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_1",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_4",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#fffef8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_3",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "READY FOR REVIEW",
+                  "_meta": {
+                    "htmlID": "u_content_text_5",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h1",
+                  "fontSize": "34px",
+                  "textAlign": "left",
+                  "lineHeight": "104%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "Build Pace v0",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_2",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "15px",
+                  "textAlign": "left",
+                  "lineHeight": "155%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Pace v0 is implemented and verified. One structured run now produces three review surfaces, compact TOON context, and portable evidence artifacts.",
+                  "_meta": {
+                    "htmlID": "u_content_text_6",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_5",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#fffef8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "34px 36px 12px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_4",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "20px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "19",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_3",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "files changed",
+                  "_meta": {
+                    "htmlID": "u_content_text_7",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px 10px 0px 0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_6",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "20px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "4506",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_4",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "lines touched",
+                  "_meta": {
+                    "htmlID": "u_content_text_8",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px 10px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_7",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "20px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "12",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_5",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "tests passed",
+                  "_meta": {
+                    "htmlID": "u_content_text_9",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px 10px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_8",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h3",
+                  "fontSize": "20px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "594m",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_6",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "elapsed",
+                  "_meta": {
+                    "htmlID": "u_content_text_10",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px 0px 0px 10px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_9",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#fffef8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "20px 36px 30px 36px",
+          "anchor": "",
+          "noStackMobile": true,
+          "_meta": {
+            "htmlID": "u_row_5",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "01",
+                  "_meta": {
+                    "htmlID": "u_content_text_11",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_10",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h2",
+                  "fontSize": "22px",
+                  "textAlign": "left",
+                  "lineHeight": "110%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "Objective",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_7",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_11",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "#d9dacd"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_2",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "8px 0px 0px 18px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_12",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "38px 36px 14px 36px",
+          "anchor": "",
+          "noStackMobile": true,
+          "_meta": {
+            "htmlID": "u_row_6",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "150%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "Codex · GPT-5 · 594 min",
+                  "_meta": {
+                    "htmlID": "u_content_text_12",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_13",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "14px",
+                  "textAlign": "left",
+                  "lineHeight": "155%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Turn structured agent runs into evidence-backed web, email, and PDF reports that humans can review with confidence.",
+                  "_meta": {
+                    "htmlID": "u_content_text_13",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_14",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "0px 36px 8px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_7",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "02",
+                  "_meta": {
+                    "htmlID": "u_content_text_14",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_15",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h2",
+                  "fontSize": "22px",
+                  "textAlign": "left",
+                  "lineHeight": "110%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "Changes",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_8",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_16",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "#d9dacd"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_3",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "8px 0px 0px 18px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_17",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "38px 36px 14px 36px",
+          "anchor": "",
+          "noStackMobile": true,
+          "_meta": {
+            "htmlID": "u_row_8",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "REVIEW WORKSPACE",
+                  "_meta": {
+                    "htmlID": "u_content_text_15",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_18",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Built a three-state review queue with isolated report scrolling and responsive output previews.",
+                  "_meta": {
+                    "htmlID": "u_content_text_16",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "src/App.tsx, src/styles.css",
+                  "_meta": {
+                    "htmlID": "u_content_text_17",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_19",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#f3f2e9",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "15px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_9",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "REPORT SYSTEM",
+                  "_meta": {
+                    "htmlID": "u_content_text_18",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_20",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Created reusable Unlayer Elements reports for web, email, document, plain text, and design JSON.",
+                  "_meta": {
+                    "htmlID": "u_content_text_19",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "src/reports/PaceReport.tsx, src/reports/render.tsx",
+                  "_meta": {
+                    "htmlID": "u_content_text_20",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_21",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#fffef8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "15px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_10",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "AGENT CONTEXT",
+                  "_meta": {
+                    "htmlID": "u_content_text_21",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_22",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Added a validated AgentRun schema with lossless TOON and JSON editing and round-trip support.",
+                  "_meta": {
+                    "htmlID": "u_content_text_22",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "src/domain/agent-run.ts, src/lib/toon.ts, src/data/fixtures.ts",
+                  "_meta": {
+                    "htmlID": "u_content_text_23",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_23",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#f3f2e9",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "15px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_11",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "EVIDENCE EXPORT",
+                  "_meta": {
+                    "htmlID": "u_content_text_24",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_24",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Added deterministic artifact generation, PDF rendering, and automated verification.",
+                  "_meta": {
+                    "htmlID": "u_content_text_25",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "scripts/render.tsx, scripts/render-pdf.mjs, src/**/*.test.tsx",
+                  "_meta": {
+                    "htmlID": "u_content_text_26",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_25",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#fffef8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "15px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_12",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "03",
+                  "_meta": {
+                    "htmlID": "u_content_text_27",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_26",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h2",
+                  "fontSize": "22px",
+                  "textAlign": "left",
+                  "lineHeight": "110%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "Verification",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_9",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_27",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "#d9dacd"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_4",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "8px 0px 0px 18px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_28",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "38px 36px 14px 36px",
+          "anchor": "",
+          "noStackMobile": true,
+          "_meta": {
+            "htmlID": "u_row_13",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "✓ PASSED",
+                  "_meta": {
+                    "htmlID": "u_content_text_28",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_29",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Unit tests",
+                  "_meta": {
+                    "htmlID": "u_content_text_29",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "12 passed across 2 test files, 0 failed",
+                  "_meta": {
+                    "htmlID": "u_content_text_30",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_30",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "256ms",
+                  "_meta": {
+                    "htmlID": "u_content_text_31",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_31",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "12px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_14",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "✓ PASSED",
+                  "_meta": {
+                    "htmlID": "u_content_text_32",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_32",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "TypeScript",
+                  "_meta": {
+                    "htmlID": "u_content_text_33",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "tsc --noEmit completed without errors",
+                  "_meta": {
+                    "htmlID": "u_content_text_34",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_33",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "540ms",
+                  "_meta": {
+                    "htmlID": "u_content_text_35",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_34",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "12px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_15",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "✓ PASSED",
+                  "_meta": {
+                    "htmlID": "u_content_text_36",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_35",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Production build",
+                  "_meta": {
+                    "htmlID": "u_content_text_37",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Vite transformed 27 modules and emitted production assets",
+                  "_meta": {
+                    "htmlID": "u_content_text_38",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_36",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "137ms",
+                  "_meta": {
+                    "htmlID": "u_content_text_39",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_37",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "12px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_16",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "✓ PASSED",
+                  "_meta": {
+                    "htmlID": "u_content_text_40",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_38",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Browser review flow",
+                  "_meta": {
+                    "htmlID": "u_content_text_41",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Three run states and Web, Email, PDF views exercised in Chrome",
+                  "_meta": {
+                    "htmlID": "u_content_text_42",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_39",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "manual",
+                  "_meta": {
+                    "htmlID": "u_content_text_43",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_40",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "12px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_17",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "✓ PASSED",
+                  "_meta": {
+                    "htmlID": "u_content_text_44",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_41",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "TOON round-trip",
+                  "_meta": {
+                    "htmlID": "u_content_text_45",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "All fixtures encode and decode without data loss",
+                  "_meta": {
+                    "htmlID": "u_content_text_46",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_42",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "included",
+                  "_meta": {
+                    "htmlID": "u_content_text_47",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_43",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "12px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_18",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "✓ PASSED",
+                  "_meta": {
+                    "htmlID": "u_content_text_48",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_44",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "PDF handoff",
+                  "_meta": {
+                    "htmlID": "u_content_text_49",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Document preview invokes native Save as PDF flow",
+                  "_meta": {
+                    "htmlID": "u_content_text_50",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_45",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "right",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "manual",
+                  "_meta": {
+                    "htmlID": "u_content_text_51",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_46",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "12px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_19",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "04",
+                  "_meta": {
+                    "htmlID": "u_content_text_52",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_47",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h2",
+                  "fontSize": "22px",
+                  "textAlign": "left",
+                  "lineHeight": "110%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "Risk",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_10",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_48",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "#d9dacd"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_5",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "8px 0px 0px 18px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_49",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "38px 36px 14px 36px",
+          "anchor": "",
+          "noStackMobile": true,
+          "_meta": {
+            "htmlID": "u_row_20",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "145%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#76500b",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "MEDIUM RISK · Implementation complete. Evidence collected. Human review can begin.",
+                  "_meta": {
+                    "htmlID": "u_content_text_53",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_50",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#fff0c8",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "18px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_21",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#76500b",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "MEDIUM",
+                  "_meta": {
+                    "htmlID": "u_content_text_54",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_51",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Agent ingestion remains manual",
+                  "_meta": {
+                    "htmlID": "u_content_text_55",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "150%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Pace v0 consumes structured run data but does not connect directly to an agent harness. Mitigation: A strict schema plus editable TOON and JSON keeps integration boundaries explicit and testable.",
+                  "_meta": {
+                    "htmlID": "u_content_text_56",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_52",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "14px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_22",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "10px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#446315",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "fontWeight": 700,
+                  "text": "LOW",
+                  "_meta": {
+                    "htmlID": "u_content_text_57",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_53",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "PDF saving depends on browser print support",
+                  "_meta": {
+                    "htmlID": "u_content_text_58",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "150%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Interactive PDF saving hands the document to the native print dialog. Mitigation: The repository also includes a deterministic headless Chrome PDF export command.",
+                  "_meta": {
+                    "htmlID": "u_content_text_59",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_54",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "14px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_23",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2,
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "12px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "05",
+                  "_meta": {
+                    "htmlID": "u_content_text_60",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_55",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "heading",
+                "values": {
+                  "containerPadding": "10px",
+                  "headingType": "h2",
+                  "fontSize": "22px",
+                  "textAlign": "left",
+                  "lineHeight": "110%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontWeight": 700,
+                  "text": "Receipts",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_heading_11",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_56",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "divider",
+                "values": {
+                  "containerPadding": "10px",
+                  "width": "100%",
+                  "border": {
+                    "borderTopWidth": "1px",
+                    "borderTopStyle": "solid",
+                    "borderTopColor": "#d9dacd"
+                  },
+                  "textAlign": "center",
+                  "_meta": {
+                    "htmlID": "u_content_divider_6",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "8px 0px 0px 18px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_57",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "38px 36px 14px 36px",
+          "anchor": "",
+          "noStackMobile": true,
+          "_meta": {
+            "htmlID": "u_row_24",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "COMMIT",
+                  "_meta": {
+                    "htmlID": "u_content_text_61",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_58",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Baseline a029f46",
+                  "_meta": {
+                    "htmlID": "u_content_text_62",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "19 files and 4,506 additions implementing Pace v0",
+                  "_meta": {
+                    "htmlID": "u_content_text_63",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_59",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "11px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_25",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "SCREENSHOT",
+                  "_meta": {
+                    "htmlID": "u_content_text_64",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_60",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Browser evidence",
+                  "_meta": {
+                    "htmlID": "u_content_text_65",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Real Pace run rendered in the review workspace",
+                  "_meta": {
+                    "htmlID": "u_content_text_66",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_61",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "11px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_26",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "LOG",
+                  "_meta": {
+                    "htmlID": "u_content_text_67",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_62",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Generated review pack",
+                  "_meta": {
+                    "htmlID": "u_content_text_68",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "PDF, TOON source, and Unlayer design JSON",
+                  "_meta": {
+                    "htmlID": "u_content_text_69",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_63",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "11px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_27",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1,
+          2
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "LOG",
+                  "_meta": {
+                    "htmlID": "u_content_text_70",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_64",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          },
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "13px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#171914",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "text": "Continuous verification",
+                  "_meta": {
+                    "htmlID": "u_content_text_71",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#686c61",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "TypeScript, tests, and production build on every push",
+                  "_meta": {
+                    "htmlID": "u_content_text_72",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_65",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "11px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_28",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "button",
+                "values": {
+                  "containerPadding": "10px",
+                  "href": {
+                    "name": "web",
+                    "values": {
+                      "href": "https://github.com/alexapvl/pace-unlayer-build-with-elements/commit/a029f46ff633d8e79b490e9b62c3269b8300835b",
+                      "target": "_blank"
+                    }
+                  },
+                  "buttonColors": {
+                    "color": "#ffffff",
+                    "backgroundColor": "#171914",
+                    "hoverColor": "#FFFFFF",
+                    "hoverBackgroundColor": "#30342b"
+                  },
+                  "size": {
+                    "autoWidth": true,
+                    "width": "100%"
+                  },
+                  "fontSize": "13px",
+                  "lineHeight": "120%",
+                  "textAlign": "center",
+                  "padding": "13px 18px",
+                  "border": {},
+                  "borderRadius": "2px",
+                  "text": "Review evidence",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "fontWeight": 700,
+                  "_meta": {
+                    "htmlID": "u_content_button_1",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_66",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "24px 36px 34px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_29",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      },
+      {
+        "cells": [
+          1
+        ],
+        "columns": [
+          {
+            "contents": [
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "11px",
+                  "textAlign": "left",
+                  "lineHeight": "150%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#fffef8",
+                  "fontFamily": {
+                    "label": "Arial",
+                    "value": "Arial, Helvetica, sans-serif"
+                  },
+                  "text": "Agents produce work faster than humans can confidently review.",
+                  "_meta": {
+                    "htmlID": "u_content_text_73",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              },
+              {
+                "type": "text",
+                "values": {
+                  "containerPadding": "10px",
+                  "fontSize": "9px",
+                  "textAlign": "left",
+                  "lineHeight": "150%",
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkHoverColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverUnderline": true
+                  },
+                  "color": "#aeb2a4",
+                  "fontFamily": {
+                    "label": "Courier",
+                    "value": "'Courier New', Courier, monospace"
+                  },
+                  "text": "Generated by Pace · 2026-07-21T10:17:09Z",
+                  "_meta": {
+                    "htmlID": "u_content_text_74",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "selectable": true,
+                  "draggable": true,
+                  "duplicatable": true,
+                  "deletable": true,
+                  "hideable": true
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "borderRadius": "0px",
+              "_meta": {
+                "htmlID": "u_column_67",
+                "htmlClassNames": "u_column"
+              },
+              "deletable": true,
+              "locked": false
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "_styleGuide": null,
+          "backgroundColor": "#171914",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": "no-repeat",
+            "size": "custom",
+            "position": "center"
+          },
+          "padding": "22px 36px",
+          "anchor": "",
+          "noStackMobile": false,
+          "_meta": {
+            "htmlID": "u_row_30",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true,
+          "locked": false,
+          "cells": [
+            1
+          ]
+        }
+      }
+    ],
+    "values": {
+      "_styleGuide": null,
+      "borderRadius": "10px",
+      "contentAlign": "center",
+      "contentVerticalAlign": "middle",
+      "contentWidth": "640px",
+      "fontFamily": {
+        "label": "Arial",
+        "value": "Arial, Helvetica, sans-serif"
+      },
+      "textColor": "#171914",
+      "language": {},
+      "backgroundColor": "#e9e8df",
+      "preheaderText": "Ready for review: Build Pace v0",
+      "linkStyle": {
+        "body": true,
+        "linkColor": "#0000ee",
+        "linkHoverColor": "#0000ee",
+        "linkUnderline": true,
+        "linkHoverUnderline": true
+      },
+      "backgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": "no-repeat",
+        "size": "custom",
+        "position": "center"
+      },
+      "accessibilityTitle": "",
+      "_meta": {
+        "htmlID": "u_body",
+        "htmlClassNames": "u_body"
+      }
+    }
+  },
+  "schemaVersion": 24
+}

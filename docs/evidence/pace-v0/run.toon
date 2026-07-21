@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: pace-a029f46
+title: Build Pace v0
+repository: alexapvl/pace-unlayer-build-with-elements
+branch: main
+agent: Codex · GPT-5
+status: ready
+risk: medium
+startedAt: "2026-07-21T00:23:55Z"
+finishedAt: "2026-07-21T10:17:09Z"
+durationMinutes: 594
+objective: Turn structured agent runs into evidence-backed web, email, and PDF reports that humans can review with confidence.
+summary: Pace v0 is implemented and verified. One structured run now produces three review surfaces, compact TOON context, and portable evidence artifacts.
+metrics:
+  filesChanged: 19
+  additions: 4506
+  deletions: 0
+  testsPassed: 12
+  testsFailed: 0
+  checksPassed: 6
+  checksTotal: 6
+changes[4	]{area	summary	files}:
+  Review workspace	Built a three-state review queue with isolated report scrolling and responsive output previews.	src/App.tsx, src/styles.css
+  Report system	Created reusable Unlayer Elements reports for web, email, document, plain text, and design JSON.	src/reports/PaceReport.tsx, src/reports/render.tsx
+  Agent context	Added a validated AgentRun schema with lossless TOON and JSON editing and round-trip support.	src/domain/agent-run.ts, src/lib/toon.ts, src/data/fixtures.ts
+  Evidence export	Added deterministic artifact generation, PDF rendering, and automated verification.	scripts/render.tsx, scripts/render-pdf.mjs, src/**/*.test.tsx
+verifications[6	]{name	status	evidence	duration}:
+  Unit tests	passed	12 passed across 2 test files, 0 failed	256ms
+  TypeScript	passed	tsc --noEmit completed without errors	540ms
+  Production build	passed	Vite transformed 27 modules and emitted production assets	137ms
+  Browser review flow	passed	Three run states and Web, Email, PDF views exercised in Chrome	manual
+  TOON round-trip	passed	All fixtures encode and decode without data loss	included
+  PDF handoff	passed	Document preview invokes native Save as PDF flow	manual
+risks[2	]{level	title	detail	mitigation}:
+  medium	Agent ingestion remains manual	Pace v0 consumes structured run data but does not connect directly to an agent harness.	A strict schema plus editable TOON and JSON keeps integration boundaries explicit and testable.
+  low	PDF saving depends on browser print support	Interactive PDF saving hands the document to the native print dialog.	The repository also includes a deterministic headless Chrome PDF export command.
+decisions: []
+timeline[5	]{time	event	detail	result}:
+  "03:23"	Review model established	Defined run states, evidence structure, and reviewer-focused information hierarchy.	done
+  "03:27"	Elements reports implemented	Shared content began rendering as web, email, document, text, and design JSON.	done
+  "03:32"	Evidence exports completed	Added TOON, HTML, design JSON, plain text, and PDF artifact generation.	done
+  "11:32"	Review surfaces polished	Improved document hierarchy, PDF handoff, navigation order, and scroll behavior.	done
+  "13:17"	Ready for review	Verification passed and immutable baseline commit was published.	done
+artifacts[4	]{type	label	url	detail}:
+  commit	Baseline a029f46	"https://github.com/alexapvl/pace-unlayer-build-with-elements/commit/a029f46ff633d8e79b490e9b62c3269b8300835b"	19 files and 4,506 additions implementing Pace v0
+  screenshot	Browser evidence	"https://github.com/alexapvl/pace-unlayer-build-with-elements/blob/main/docs/evidence/pace-v0/screenshot.png"	Real Pace run rendered in the review workspace
+  log	Generated review pack	"https://github.com/alexapvl/pace-unlayer-build-with-elements/tree/main/docs/evidence/pace-v0"	PDF, TOON source, and Unlayer design JSON
+  log	Continuous verification	"https://github.com/alexapvl/pace-unlayer-build-with-elements/actions/workflows/verify.yml"	TypeScript, tests, and production build on every push

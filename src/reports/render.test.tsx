@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { decisionRun, readyRun, stoppedRun } from '../data/fixtures'
+import { decisionRun, paceRun, stoppedRun } from '../data/fixtures'
 import { renderReportHtml, renderReportJson, renderReportText } from './render'
 
 describe('Pace reports', () => {
@@ -13,7 +13,8 @@ describe('Pace reports', () => {
   })
 
   it('renders state-specific report content', () => {
-    expect(renderReportHtml(readyRun, 'email')).toContain('Ready for review')
+    expect(renderReportHtml(paceRun, 'email')).toContain('Ready for review')
+    expect(renderReportHtml(paceRun, 'document')).toContain('Baseline a029f46')
     expect(renderReportHtml(stoppedRun, 'email')).toContain('Stopped safely')
     expect(renderReportHtml(stoppedRun, 'email')).toContain('Duplicate billing transitions')
   })
