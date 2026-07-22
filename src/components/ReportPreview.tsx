@@ -4,6 +4,7 @@ import { statusCopy, type AgentRun } from '../domain/agent-run'
 import { runStatusTone } from '../lib/status-tone'
 import type { ReportMode } from '../reports/PaceReport'
 import { renderReportHtml } from '../reports/render'
+import { EmailInboxPreview } from './EmailInboxPreview'
 import { DownloadIcon } from './icons'
 
 export type PreviewDirection = 'left' | 'right'
@@ -19,6 +20,17 @@ export function ReportPreview({ run, mode, direction, onModeChange }: ReportPrev
   const previewFrame = useRef<HTMLIFrameElement>(null)
   const reportHtml = useMemo(() => renderReportHtml(run, mode), [run, mode])
   const activeMode = reportModes.find((item) => item.value === mode) ?? reportModes[0]
+
+  const reportFrame = (
+    <iframe
+      ref={previewFrame}
+      title={`${run.title} ${activeMode.label} preview`}
+      srcDoc={reportHtml}
+      sandbox="allow-modals allow-popups allow-same-origin"
+      scrolling="no"
+      onLoad={resizePreview}
+    />
+  )
 
   function resizePreview(event: React.SyntheticEvent<HTMLIFrameElement>) {
     const frame = event.currentTarget
@@ -85,14 +97,7 @@ export function ReportPreview({ run, mode, direction, onModeChange }: ReportPrev
 
       <div className={`preview-canvas mode-${mode}`}>
         <div className={`preview-frame enter-${direction}`} key={`${run.id}-${mode}`}>
-          <iframe
-            ref={previewFrame}
-            title={`${run.title} ${activeMode.label} preview`}
-            srcDoc={reportHtml}
-            sandbox="allow-modals allow-popups allow-same-origin"
-            scrolling="no"
-            onLoad={resizePreview}
-          />
+          {mode === 'email' ? <EmailInboxPreview run={run}>{reportFrame}</EmailInboxPreview> : reportFrame}
         </div>
       </div>
     </section>
