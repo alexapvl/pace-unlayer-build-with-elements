@@ -19,6 +19,26 @@ describe('Pace reports', () => {
     expect(renderReportHtml(stoppedRun, 'email')).toContain('Duplicate billing transitions')
   })
 
+  it('keeps evidence buttons but only links verified URLs', () => {
+    const realEmail = renderReportHtml(paceRun, 'email')
+    const decisionEmail = renderReportHtml(decisionRun, 'email')
+    const stoppedEmail = renderReportHtml(stoppedRun, 'email')
+
+    expect(realEmail).toContain('Review evidence')
+    expect(realEmail).toContain('a029f46ff633d8e79b490e9b62c3269b8300835b')
+    expect(decisionEmail).toContain('Review evidence')
+    expect(stoppedEmail).toContain('Review evidence')
+    expect(decisionEmail).not.toContain('github.com/acme')
+    expect(stoppedEmail).not.toContain('github.com/acme')
+    expect(decisionEmail).toContain('aria-disabled="true" tabindex="-1" class="v-button')
+    expect(stoppedEmail).toContain('aria-disabled="true" tabindex="-1" class="v-button')
+  })
+
+  it.each(['email', 'page', 'document'] as const)('renders review evidence actions in %s mode', (mode) => {
+    expect(renderReportHtml(paceRun, mode)).toContain('Review evidence')
+    expect(renderReportHtml(decisionRun, mode)).toContain('Review evidence')
+  })
+
   it('renders plaintext and Unlayer design JSON', () => {
     const plaintext = renderReportText(decisionRun)
     const design = renderReportJson(decisionRun)

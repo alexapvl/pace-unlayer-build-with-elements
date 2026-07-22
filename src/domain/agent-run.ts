@@ -58,7 +58,7 @@ export interface AgentRun {
   artifacts: Array<{
     type: 'pull_request' | 'commit' | 'screenshot' | 'log' | 'migration'
     label: string
-    url: string
+    url?: string
     detail: string
   }>
 }

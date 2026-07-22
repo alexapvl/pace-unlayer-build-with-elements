@@ -133,19 +133,16 @@ export const decisionRun = {
     {
       type: 'pull_request',
       label: 'PR #184',
-      url: 'https://github.com/acme/cloud-console/pull/184',
       detail: 'Team invitation implementation',
     },
     {
       type: 'migration',
       label: 'Migration 0042',
-      url: 'https://github.com/acme/cloud-console/blob/agent/team-invitations/db/0042_team_invitations.sql',
       detail: 'Additive invitation schema',
     },
     {
       type: 'screenshot',
       label: 'Browser evidence',
-      url: 'https://example.com/evidence/team-invitations',
       detail: 'Four tested interface states',
     },
   ],
@@ -427,19 +424,16 @@ export const stoppedRun = {
     {
       type: 'commit',
       label: 'Analysis commit',
-      url: 'https://github.com/acme/billing-service/commit/case1826',
       detail: 'Replay harness and characterization tests only',
     },
     {
       type: 'log',
       label: 'Replay evidence',
-      url: 'https://example.com/evidence/webhook-replay',
       detail: 'Redacted event ordering failures',
     },
     {
       type: 'log',
       label: 'Risk note',
-      url: 'https://example.com/evidence/webhook-risk',
       detail: 'Required invariants before resuming work',
     },
   ],

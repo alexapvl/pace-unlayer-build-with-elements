@@ -104,6 +104,8 @@ function ReportContent({ run, mode }: { run: AgentRun; mode: ReportMode }) {
   const risk = riskColors(run.risk)
   const isCompact = mode === 'email'
   const changedLines = run.metrics.additions + run.metrics.deletions
+  const reviewArtifactUrl = run.artifacts.find((artifact) => artifact.url)?.url
+  const hasReviewArtifacts = run.artifacts.length > 0
 
   return (
     <>
@@ -490,14 +492,14 @@ function ReportContent({ run, mode }: { run: AgentRun; mode: ReportMode }) {
         </Row>
       ))}
 
-      {mode === 'email' && run.artifacts[0] ? (
+      {hasReviewArtifacts ? (
         <Row layout={ColumnLayouts.OneColumn} padding="24px 36px 34px 36px">
           <Column>
             <Button
-              href={run.artifacts[0].url}
-              backgroundColor={colors.ink}
-              color={colors.white}
-              hoverBackgroundColor="#30342b"
+              href={reviewArtifactUrl}
+              backgroundColor={reviewArtifactUrl ? colors.ink : '#d0d1c7'}
+              color={reviewArtifactUrl ? colors.white : '#686c61'}
+              hoverBackgroundColor={reviewArtifactUrl ? '#30342b' : '#d0d1c7'}
               fontFamily={sans}
               fontSize="13px"
               fontWeight={700}
