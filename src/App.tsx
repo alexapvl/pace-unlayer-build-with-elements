@@ -58,6 +58,15 @@ function DownloadIcon() {
   )
 }
 
+function EditIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="m4 16-.8 4.8L8 20l10.7-10.7a2.1 2.1 0 0 0-3-3L4 18v2h2" />
+      <path d="m14.5 7.5 3 3" />
+    </svg>
+  )
+}
+
 export function App() {
   const [selectedRunId, setSelectedRunId] = useState(fixtures[0].id)
   const [activeRun, setActiveRun] = useState<AgentRun>(fixtures[0])
@@ -338,12 +347,19 @@ export function App() {
               </div>
             </div>
 
+            <div className="editability-note">
+              <span className="editability-icon">
+                <EditIcon />
+              </span>
+              <span>
+                <strong>This context is editable</strong>
+                <small>Change TOON or JSON, then apply to re-render Web, Email, and PDF.</small>
+              </span>
+            </div>
+
             <div className="source-shell">
               <div className="source-toolbar">
-                <div className="source-file">
-                  <span>{sourceFormat === 'toon' ? 'run.toon · tab-delimited' : 'run.json'}</span>
-                  <span className="editable-label">Editable</span>
-                </div>
+                <span>{sourceFormat === 'toon' ? 'run.toon · tab-delimited' : 'run.json'}</span>
                 <button type="button" onClick={copySource}>
                   <CopyIcon />
                   <span className="copy-label" aria-live="polite">
@@ -364,16 +380,11 @@ export function App() {
               />
             </div>
 
-            <div className={`source-message ${sourceError ? 'error' : ''}`} aria-live="polite">
-              {sourceError ? (
-                sourceError
-              ) : (
-                <>
-                  Editable context. Change it, then apply to re-render Web, Email, and PDF. JSON stays canonical
-                  inside Pace.
-                </>
-              )}
-            </div>
+            {sourceError ? (
+              <div className="source-message error" aria-live="polite">
+                {sourceError}
+              </div>
+            ) : null}
           </div>
 
           <footer className="drawer-footer">

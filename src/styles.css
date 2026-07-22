@@ -697,7 +697,7 @@ textarea:focus-visible {
 .drawer-body {
   min-height: 0;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto 1fr auto;
   gap: 16px;
   padding: 20px 28px 18px;
 }
@@ -769,21 +769,51 @@ textarea:focus-visible {
   font-size: 8px;
 }
 
-.source-file {
+.editability-note {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid rgba(102, 142, 39, 0.3);
+  border-radius: 4px;
+  background: rgba(201, 247, 111, 0.17);
 }
 
-.editable-label {
-  padding: 3px 5px;
-  border: 1px solid #59604f;
-  border-radius: 2px;
-  color: var(--lime);
-  font-size: 7px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.editability-icon {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--lime);
+  color: #354813;
+}
+
+.editability-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.editability-note > span:last-child {
+  display: grid;
+  gap: 2px;
+}
+
+.editability-note strong {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.editability-note small {
+  color: #5d6256;
+  font-size: 11px;
+  line-height: 1.35;
 }
 
 .source-toolbar button {
