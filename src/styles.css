@@ -208,14 +208,15 @@ textarea:focus-visible {
 }
 
 .rail-heading h1 {
-  max-width: 250px;
   margin: 0;
-  font-size: clamp(25px, 2.3vw, 34px);
+  font-size: clamp(24px, 2vw, 30px);
   line-height: 0.98;
   letter-spacing: -0.045em;
+  white-space: nowrap;
 }
 
 .queue-count {
+  flex: 0 0 auto;
   color: #8d9184;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 12px;

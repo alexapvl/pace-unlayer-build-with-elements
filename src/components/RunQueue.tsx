@@ -14,7 +14,7 @@ export function RunQueue({ runs, selectedRunId, onSelect }: RunQueueProps) {
       <div className="rail-heading">
         <div>
           <p className="eyebrow">Review queue</p>
-          <h1>Three runs need you.</h1>
+          <h1>Runs need review</h1>
         </div>
         <span className="queue-count">{String(runs.length).padStart(2, '0')}</span>
       </div>
