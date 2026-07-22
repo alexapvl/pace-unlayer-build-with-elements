@@ -6,6 +6,8 @@
 
 Pace turns a structured agent run into a review-ready web report, stakeholder email, and audit PDF. Decisions, risks, verification, and receipts stay attached to the work.
 
+[Open Pace](https://pace-unlayer.apvl.dev/) · [Try the demo](https://pace-unlayer.apvl.dev/demo)
+
 ![Pace review workspace showing a real dogfood run](docs/evidence/pace-v0/screenshot.png)
 
 ## The problem
@@ -106,7 +108,7 @@ pnpm install
 pnpm dev
 ```
 
-Open the local URL printed by Vite. Pace binds to `127.0.0.1` to avoid oversized shared `localhost` cookie headers during development.
+Open the local URL printed by Vite for the landing page, or add `/demo` for the review workspace. Pace binds to `127.0.0.1` to avoid oversized shared `localhost` cookie headers during development.
 
 ### Useful commands
 
@@ -126,6 +128,7 @@ src/
   lib/toon.ts               JSON and TOON conversion
   reports/PaceReport.tsx    Shared Unlayer Elements template
   reports/render.tsx        HTML, text, and design JSON renderers
+  LandingPage.tsx           Challenge landing page
   App.tsx                   Review workspace
 scripts/
   render.tsx                Evidence artifact generator
