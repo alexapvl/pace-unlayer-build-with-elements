@@ -8,7 +8,7 @@ Pace turns a structured agent run into a review-ready web report, stakeholder em
 
 [Open Pace](https://pace-unlayer.apvl.dev/) · [Try the demo](https://pace-unlayer.apvl.dev/demo)
 
-![Pace review workspace showing a real dogfood run](docs/evidence/pace-v0/screenshot.png)
+![Pace review workspace showing a real dogfood run](docs/evidence/pace-v0/screenshot.png?v=2)
 
 ## The problem
 
