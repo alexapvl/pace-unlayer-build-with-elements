@@ -767,6 +767,23 @@ textarea:focus-visible {
   font-size: 8px;
 }
 
+.source-file {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.editable-label {
+  padding: 3px 5px;
+  border: 1px solid #59604f;
+  border-radius: 2px;
+  color: var(--lime);
+  font-size: 7px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .source-toolbar button {
   min-width: 70px;
   height: 28px;
@@ -820,8 +837,9 @@ textarea:focus-visible {
   border-left: 3px solid var(--lime);
   background: rgba(201, 247, 111, 0.13);
   color: #4d5344;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 8px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 650;
   line-height: 1.5;
   transition:
     background 240ms var(--ease),
@@ -850,8 +868,9 @@ textarea:focus-visible {
   align-items: center;
   gap: 8px;
   color: var(--muted);
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 7px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 650;
 }
 
 .comparison-line {
@@ -885,20 +904,27 @@ textarea:focus-visible {
     background 130ms cubic-bezier(0.2, 0, 0, 1);
 }
 
-.apply-button:hover {
+.apply-button:hover:not(:disabled) {
   background: #30342b;
   transform: translateY(-1px);
 }
 
-.apply-button:active {
+.apply-button:active:not(:disabled) {
   transform: translateY(1px) scale(0.99);
+}
+
+.apply-button:disabled {
+  border-color: #b8b9ae;
+  background: #c8c9be;
+  color: #76796e;
+  cursor: not-allowed;
 }
 
 .apply-button svg {
   transition: transform 200ms var(--ease);
 }
 
-.apply-button:hover svg {
+.apply-button:hover:not(:disabled) svg {
   transform: translateX(3px);
 }
 

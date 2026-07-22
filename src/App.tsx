@@ -66,6 +66,7 @@ export function App() {
   const [contextOpen, setContextOpen] = useState(false)
   const [sourceFormat, setSourceFormat] = useState<SourceFormat>('toon')
   const [source, setSource] = useState(() => encodeRun(fixtures[0], 'toon'))
+  const [sourceBaseline, setSourceBaseline] = useState(() => encodeRun(fixtures[0], 'toon'))
   const [sourceError, setSourceError] = useState('')
   const [copyState, setCopyState] = useState<'idle' | 'copied'>('idle')
   const copyTimer = useRef<number | undefined>(undefined)
@@ -74,15 +75,18 @@ export function App() {
   const reportHtml = useMemo(() => renderReportHtml(activeRun, mode), [activeRun, mode])
   const sourceStats = useMemo(() => getSourceStats(activeRun), [activeRun])
   const activeMode = modes.find((item) => item.value === mode) ?? modes[0]
+  const hasSourceChanges = source !== sourceBaseline
 
   useEffect(() => {
     return () => window.clearTimeout(copyTimer.current)
   }, [])
 
   function selectRun(run: AgentRun) {
+    const nextSource = encodeRun(run, sourceFormat)
     setSelectedRunId(run.id)
     setActiveRun(run)
-    setSource(encodeRun(run, sourceFormat))
+    setSource(nextSource)
+    setSourceBaseline(nextSource)
     setSourceError('')
   }
 
@@ -94,16 +98,21 @@ export function App() {
   }
 
   function changeSourceFormat(format: SourceFormat) {
+    const nextSource = encodeRun(activeRun, format)
     setSourceFormat(format)
-    setSource(encodeRun(activeRun, format))
+    setSource(nextSource)
+    setSourceBaseline(nextSource)
     setSourceError('')
   }
 
   function applySource() {
     try {
       const run = decodeRun(source, sourceFormat)
+      const normalizedSource = encodeRun(run, sourceFormat)
       setActiveRun(run)
       setSelectedRunId(run.id)
+      setSource(normalizedSource)
+      setSourceBaseline(normalizedSource)
       setSourceError('')
       setContextOpen(false)
     } catch (error) {
@@ -119,7 +128,9 @@ export function App() {
   }
 
   function openContext() {
-    setSource(encodeRun(activeRun, sourceFormat))
+    const nextSource = encodeRun(activeRun, sourceFormat)
+    setSource(nextSource)
+    setSourceBaseline(nextSource)
     setSourceError('')
     setContextOpen(true)
   }
@@ -329,7 +340,10 @@ export function App() {
 
             <div className="source-shell">
               <div className="source-toolbar">
-                <span>{sourceFormat === 'toon' ? 'run.toon · tab-delimited' : 'run.json'}</span>
+                <div className="source-file">
+                  <span>{sourceFormat === 'toon' ? 'run.toon · tab-delimited' : 'run.json'}</span>
+                  <span className="editable-label">Editable</span>
+                </div>
                 <button type="button" onClick={copySource}>
                   <CopyIcon />
                   <span className="copy-label" aria-live="polite">
@@ -355,7 +369,8 @@ export function App() {
                 sourceError
               ) : (
                 <>
-                  JSON stays canonical inside Pace. TOON becomes compact input for agents and review pipelines.
+                  Editable context. Change it, then apply to re-render Web, Email, and PDF. JSON stays canonical
+                  inside Pace.
                 </>
               )}
             </div>
@@ -369,8 +384,8 @@ export function App() {
               </span>
               <span>JSON {sourceStats.jsonCharacters.toLocaleString()}</span>
             </div>
-            <button className="apply-button" type="button" onClick={applySource}>
-              Apply context
+            <button className="apply-button" type="button" onClick={applySource} disabled={!hasSourceChanges}>
+              Apply changes
               <ArrowIcon />
             </button>
           </footer>
