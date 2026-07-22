@@ -123,8 +123,11 @@ Open the local URL printed by Vite for the landing page, or add `/demo` for the 
 
 ```text
 src/
+  components/               Review workspace UI components
+  config/report-modes.ts    Shared output format configuration
   data/fixtures.ts          Demo and dogfood runs
   domain/agent-run.ts       AgentRun schema and status language
+  lib/status-tone.ts        Shared run status presentation mapping
   lib/toon.ts               JSON and TOON conversion
   reports/PaceReport.tsx    Shared Unlayer Elements template
   reports/render.tsx        HTML, text, and design JSON renderers

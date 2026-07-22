@@ -1,32 +1,14 @@
 import pacePreview from '../docs/evidence/pace-v0/screenshot.png'
+import { ArrowIcon, ExternalIcon } from './components/icons'
+import { PaceMark } from './components/PaceMark'
 import './landing.css'
-
-function ArrowIcon() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M5 12h14M14 7l5 5-5 5" />
-    </svg>
-  )
-}
-
-function ExternalIcon() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M8 16 16 8M9 8h7v7" />
-    </svg>
-  )
-}
 
 export function LandingPage() {
   return (
     <div className="landing-shell">
       <header className="landing-header">
         <a className="landing-brand" href="/" aria-label="Pace home">
-          <span className="brand-mark" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-          </span>
+          <PaceMark />
           <span>pace</span>
         </a>
 
