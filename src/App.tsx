@@ -164,7 +164,7 @@ export function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <div className="brand-lockup" aria-label="Pace">
+        <a className="brand-lockup" href="/" aria-label="Pace home">
           <span className="brand-mark" aria-hidden="true">
             <span />
             <span />
@@ -172,7 +172,7 @@ export function App() {
           </span>
           <span className="brand-name">pace</span>
           <span className="brand-tagline">agent work, ready for review</span>
-        </div>
+        </a>
 
         <button className="context-button" type="button" onClick={openContext}>
           <DataIcon />

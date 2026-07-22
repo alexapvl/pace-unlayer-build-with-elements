@@ -445,4 +445,4 @@ export const stoppedRun = {
   ],
 } satisfies AgentRun
 
-export const fixtures = [decisionRun, paceRun, stoppedRun] as const
+export const fixtures = [paceRun, decisionRun, stoppedRun] as const
