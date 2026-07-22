@@ -12,12 +12,8 @@ export function renderReportHtml(run: AgentRun, mode: ReportMode) {
   const html = renderToHtml(<PaceReport run={run} mode={mode} />, {
     title: `${run.title} · Pace`,
   })
-  const safeHtml = html.replace(
-    /<a href="" target="_blank" class="v-button/g,
-    '<a aria-disabled="true" tabindex="-1" class="v-button',
-  )
 
-  if (mode !== 'document') return safeHtml
+  if (mode !== 'document') return html
 
   const printStyles = `
     <style>
@@ -35,7 +31,7 @@ export function renderReportHtml(run: AgentRun, mode: ReportMode) {
     </style>
   `
 
-  return safeHtml
+  return html
     .replace(/\s*<div style="page-break-before: always;" \/>/g, '')
     .replace('</head>', `${printStyles}</head>`)
 }

@@ -12,6 +12,7 @@ import {
   Row,
 } from '@unlayer/react-elements'
 import { statusCopy, type AgentRun, type RiskLevel, type RunStatus } from '../domain/agent-run'
+import { EvidenceAction } from './EvidenceAction'
 
 export type ReportMode = 'email' | 'page' | 'document'
 
@@ -105,7 +106,6 @@ function ReportContent({ run, mode }: { run: AgentRun; mode: ReportMode }) {
   const isCompact = mode === 'email'
   const changedLines = run.metrics.additions + run.metrics.deletions
   const reviewArtifactUrl = run.artifacts.find((artifact) => artifact.url)?.url
-  const hasReviewArtifacts = run.artifacts.length > 0
 
   return (
     <>
@@ -492,23 +492,10 @@ function ReportContent({ run, mode }: { run: AgentRun; mode: ReportMode }) {
         </Row>
       ))}
 
-      {hasReviewArtifacts ? (
+      {run.artifacts.length > 0 ? (
         <Row layout={ColumnLayouts.OneColumn} padding="24px 36px 34px 36px">
           <Column>
-            <Button
-              href={reviewArtifactUrl}
-              backgroundColor={reviewArtifactUrl ? colors.ink : '#d0d1c7'}
-              color={reviewArtifactUrl ? colors.white : '#686c61'}
-              hoverBackgroundColor={reviewArtifactUrl ? '#30342b' : '#d0d1c7'}
-              fontFamily={sans}
-              fontSize="13px"
-              fontWeight={700}
-              padding="13px 18px"
-              borderRadius="2px"
-              textAlign="center"
-            >
-              Review evidence
-            </Button>
+            {EvidenceAction({ href: reviewArtifactUrl })}
           </Column>
         </Row>
       ) : []}

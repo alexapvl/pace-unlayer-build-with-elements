@@ -129,6 +129,7 @@ src/
   domain/agent-run.ts       AgentRun schema and status language
   lib/status-tone.ts        Shared run status presentation mapping
   lib/toon.ts               JSON and TOON conversion
+  reports/EvidenceAction.tsx Shared evidence action for every output
   reports/PaceReport.tsx    Shared Unlayer Elements template
   reports/render.tsx        HTML, text, and design JSON renderers
   LandingPage.tsx           Challenge landing page

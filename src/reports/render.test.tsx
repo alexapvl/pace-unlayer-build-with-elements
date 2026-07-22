@@ -30,13 +30,25 @@ describe('Pace reports', () => {
     expect(stoppedEmail).toContain('Review evidence')
     expect(decisionEmail).not.toContain('github.com/acme')
     expect(stoppedEmail).not.toContain('github.com/acme')
-    expect(decisionEmail).toContain('aria-disabled="true" tabindex="-1" class="v-button')
-    expect(stoppedEmail).toContain('aria-disabled="true" tabindex="-1" class="v-button')
+    expect(decisionEmail).toContain('data-evidence-action="disabled"')
+    expect(stoppedEmail).toContain('data-evidence-action="disabled"')
+    expect(decisionEmail).not.toContain('href=""')
+    expect(stoppedEmail).not.toContain('href=""')
   })
 
   it.each(['email', 'page', 'document'] as const)('renders review evidence actions in %s mode', (mode) => {
-    expect(renderReportHtml(paceRun, mode)).toContain('Review evidence')
-    expect(renderReportHtml(decisionRun, mode)).toContain('Review evidence')
+    const realHtml = renderReportHtml(paceRun, mode)
+    const decisionHtml = renderReportHtml(decisionRun, mode)
+    const stoppedHtml = renderReportHtml(stoppedRun, mode)
+
+    expect(realHtml).toContain('Review evidence')
+    expect(realHtml).not.toContain('data-evidence-action="disabled"')
+    expect(decisionHtml).toContain('Review evidence')
+    expect(stoppedHtml).toContain('Review evidence')
+    expect(decisionHtml).toContain('data-evidence-action="disabled"')
+    expect(stoppedHtml).toContain('data-evidence-action="disabled"')
+    expect(decisionHtml).not.toContain('href=""')
+    expect(stoppedHtml).not.toContain('href=""')
   })
 
   it('renders plaintext and Unlayer design JSON', () => {
