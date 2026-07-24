@@ -1,4 +1,3 @@
-import pacePreview from '../docs/evidence/pace-v0/screenshot.png'
 import { ArrowIcon, ExternalIcon } from './components/icons'
 import { PaceMark } from './components/PaceMark'
 import './landing.css'
@@ -94,7 +93,14 @@ export function LandingPage() {
               </span>
             </div>
             <div className="product-crop">
-              <img src={pacePreview} alt="Pace review workspace showing a real agent run" />
+              <img
+                src="/pace-preview.webp"
+                width="1440"
+                height="1000"
+                loading="eager"
+                fetchPriority="high"
+                alt="Pace review workspace showing a real agent run"
+              />
             </div>
           </div>
 
